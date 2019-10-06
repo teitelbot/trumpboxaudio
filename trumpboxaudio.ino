@@ -9,7 +9,7 @@
 const char* ssid = "***";
 const char* password = "***";
 
-#define PIN_BUSY D8  \\ not using this pin for now so you dont need to wire anything to this pin
+#define PIN_BUSY D8  // not using this pin for now so you dont need to wire anything to this pin
 SoftwareSerial mySoftwareSerial(D1, D2); // RX, TX
 DFRobotDFPlayerMini myDFPlayer;
 
